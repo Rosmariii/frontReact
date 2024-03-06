@@ -1,0 +1,55 @@
+.TodoItem {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid rgb(193, 81, 184);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.3s;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.TodoItem-complited {
+    background-color: rgb(206, 206, 206);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.TodoItem-complited--active {
+    background-color: rgb(67, 169, 99);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.TodoItem-deleted {
+    background-color: rgb(189, 7, 7);
+    color: #fffcfc;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.TodoItem-check {
+    text-decoration: none;
+}
+
+.TodoItem-check--active {
+    text-decoration: line-through;
+}
+
+.Icon-svg {
+    width: 24px;
+    height: 24px;
+}
